@@ -1,0 +1,15 @@
+thumbs.db
+old/
+*.dep
+*.mcs
+*.hxl
+*.lst
+*.map
+*.obj
+*.p1
+*.pre
+*.rlf
+*.sdb
+*.sym
+funclist
+*.as
