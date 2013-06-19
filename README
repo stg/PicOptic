@@ -2,3 +2,10 @@ PicOptic
 ========
 
 PIC(L)F1826/1827 serial via A/D bootloader
+
+This is a bootloader for the above mentioned Microchip processor.
+
+It does software serial communication with the A/D converter as input, allowing you to change the input threshold to suite any analog sensor.
+It could quite easily be modified to transfer several bits per cycle, or to receive communication by other means, such as audio for example.
+
+I wrote this to download new firmware to a homebrew wristwatch, using its light sensor to receive, and an LED on its dial to transmit.
